@@ -1,0 +1,86 @@
+body {
+    background: black;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body * {
+    user-select: none;
+}
+
+.app{
+    width: 600px;
+    height: 500px;
+    margin: 50px auto auto;
+    position: relative;
+    border: 5px solid #FFFFFF;
+}
+
+.screen{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+#title, #textGameOver, #textNextLevel{
+    color: #FFFFFF;
+    font-size: 3em;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+
+#buttonStart, #buttonAgain{
+    color: #000000;
+    font-size: 2em;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    padding: 20px 20px;
+    background-color: white;
+    mix-blend-mode: exclusion;
+}
+
+#buttonStart:hover, #buttonAgain:hover{
+    color: #ffffff;
+    background-color: transparent;
+}
+
+#scoreValue{
+    color: #ffffff;
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    /*transform: translate(-4%, -5%);*/
+}
+
+#countdown{
+    color: #FFFFFF;
+    font-size: 6em;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+
+#levelValue{
+    color: #ffffff;
+    position: absolute;
+    font-size: 1em;
+    bottom: 3%;
+    right: 3%;
+    /*transform: translate(-4%, -5%);*/
+}
+
+#footer{
+    color: #ffffff;
+    font-size: 0.8em;
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -99%);
+    white-space:nowrap;
+}
+
