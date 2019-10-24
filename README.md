@@ -1,4 +1,4 @@
-## Asteroids game
+# Asteroids game
 
 ## About this project
 
