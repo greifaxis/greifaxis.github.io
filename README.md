@@ -6,6 +6,6 @@ Asteroids clone in clean JavaScript. Proudly deployed on [https://greifaxis.gith
 
 ## Screenshots
 
-![Image](https://i.imgur.com/u1bjjZ5.png)
+![Image](https://i.imgur.com/u1bjjZ5.png?1)
 
-![Image](https://i.imgur.com/OZAS9xu.png)
+![Image](https://i.imgur.com/OZAS9xu.png?1)
